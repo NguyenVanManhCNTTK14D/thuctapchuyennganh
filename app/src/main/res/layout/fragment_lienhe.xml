@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linn"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#123"
+        android:textSize="40dp"
+        android:text="Thông tin liên hệ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="20sp"
+        android:textColor="#123"
+        android:textSize="20sp"
+        android:text="Báo chí, hợp tác : Liên hệ Nguyenmanh1703@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#123"
+        android:textSize="20sp"
+        android:text="Tổng đài tư vấn , hỗ trợ khách hàng ( 7h30 - 22h30 ):0972473889"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#123"
+        android:textSize="20sp"
+        android:text="Tổng đài khiếu nại : 0972473889"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#123"
+        android:textSize="20sp"
+        android:text="Email: nguyenmanh1703@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</android.support.v7.widget.LinearLayoutCompat>

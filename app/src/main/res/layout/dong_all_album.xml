@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/imagaviewalbum"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="180dp"
+            android:layout_height="180dp" />
+
+        <TextView
+
+            android:id="@+id/textviewallalbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:lines="2"
+            android:maxWidth="200dp"
+            android:maxLines="2"
+            android:text="nhac viet" />
+        <TextView
+            android:textSize="13dp"
+            android:text="thich thi chieu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
